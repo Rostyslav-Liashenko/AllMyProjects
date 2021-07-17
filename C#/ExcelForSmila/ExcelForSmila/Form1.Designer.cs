@@ -77,11 +77,12 @@ namespace ExcelForSmila
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 112);
+            this.label2.Location = new System.Drawing.Point(12, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 15);
+            this.label2.Size = new System.Drawing.Size(88, 15);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Введіть вулиці";
+            this.label2.Text = "Введіть вулиці:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 

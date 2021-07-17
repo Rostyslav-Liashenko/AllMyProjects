@@ -41,7 +41,7 @@ namespace ExcelForSmila
                 string street = Convert.ToString(excelcells.Value2);
                 for (int j = 0; j < streets.Length; j++)
                 {
-                    if (street == streets[j])
+                    if (street.Contains(streets[j]))
                     {
                         indexNewRecord++;
                         string allInformation = "";
@@ -95,10 +95,7 @@ namespace ExcelForSmila
                 Type.Missing, Type.Missing);
             excelSheets = excelAppWorkBook.Worksheets;
             excelWorkSheet = (Excel.Worksheet)excelSheets.get_Item(1);  
-            ProccesingAllRange(Convert.ToInt32(textBoxBeginRecord.Text),10,textBoxBeginCopy.Text[0],textBoxEndCopy.Text[0]); // long
-            // save
-            //excelAppWorkBooks = excelApp.Workbooks;
-            //excelAppWorkBook = excelAppWorkBooks[1];
+            ProccesingAllRange(Convert.ToInt32(textBoxBeginRecord.Text),10,textBoxBeginCopy.Text[0],textBoxEndCopy.Text[0]);
             excelApp.DisplayAlerts = false;
             excelAppWorkBook.Save();
             excelApp.Quit();
@@ -119,6 +116,11 @@ namespace ExcelForSmila
                 "Автор",
                 MessageBoxButtons.OK
                 );
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
