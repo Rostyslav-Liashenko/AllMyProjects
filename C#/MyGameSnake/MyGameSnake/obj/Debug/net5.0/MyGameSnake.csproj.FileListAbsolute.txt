@@ -1,0 +1,16 @@
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/bin/Debug/net5.0/MyGameSnake
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/bin/Debug/net5.0/MyGameSnake.deps.json
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/bin/Debug/net5.0/MyGameSnake.runtimeconfig.json
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/bin/Debug/net5.0/MyGameSnake.runtimeconfig.dev.json
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/bin/Debug/net5.0/MyGameSnake.dll
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/bin/Debug/net5.0/ref/MyGameSnake.dll
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/bin/Debug/net5.0/MyGameSnake.pdb
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.csprojAssemblyReference.cache
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.GeneratedMSBuildEditorConfig.editorconfig
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.AssemblyInfoInputs.cache
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.AssemblyInfo.cs
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.csproj.CoreCompileInputs.cache
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.dll
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/ref/MyGameSnake.dll
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.pdb
+/home/kivi27/RiderProjects/MyGameSnake/MyGameSnake/obj/Debug/net5.0/MyGameSnake.genruntimeconfig.cache

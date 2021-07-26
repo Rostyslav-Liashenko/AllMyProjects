@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/kivi27/.dotnet/store/|arch|/|tfm|",
+      "/home/kivi27/.nuget/packages"
+    ]
+  }
+}
