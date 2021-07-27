@@ -44,7 +44,7 @@ namespace MyGameSnake.UserElement.MainCharacter
 
         public bool IsRotateYourself(SnakeDirection latsDirection, SnakeDirection newDirection)
         {
-            return (int) latsDirection - (int) newDirection == 1;
+            return Math.Abs((int) latsDirection - (int) newDirection) == 1;
         }
         
         public void Increment()
@@ -59,7 +59,7 @@ namespace MyGameSnake.UserElement.MainCharacter
                     offsetX = -1;
                     offsetY = 0;
                 }
-                else if (snake[Length - 1].X - snake[Length - 2].X < 0) // generate tail right
+                else if (snake[Length - 1].X - snake[Length - 2].X > 0) // generate tail right
                 {
                     offsetX = 1;
                     offsetY = 0;
