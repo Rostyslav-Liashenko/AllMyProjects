@@ -7,8 +7,8 @@ namespace MyGameSnake
 {
     public static class GameManager
     {
-        private const int Height = 23; // height of game area
-        private const int Width = 50; // width of game area
+        private const int Height = 23; // height of game area 23
+        private const int Width = 50; // width of game area 50
         private const int TimeSleep = 700; // need for miniature
         public static uint Score;
 
@@ -28,22 +28,22 @@ namespace MyGameSnake
             return SnakeDirection.Right; // never
         }
 
-        private static void CheckEat(Snake snake, Food food)
+        private static void CheckEat(Snake snake, Apple apple)
         {
-            if (snake[0].Equals(food)) // compare coordinate head of snake and food
-                food.OnEatenFood(snake);
+            if (snake[0].Equals(apple)) // compare coordinate head of snake and food
+                apple.OnEatenFood(snake);
         }
         
         static void Main()
         {
             GameArea area = new GameArea(Height, Width);
-            Food food = new Food(0, 0);
+            Apple apple = new Apple(0, 0);
             Snake snake = new Snake(Width / 2, Height / 2, 1);
             
-            food.Eat += (sender, e) =>
+            apple.Eat += (sender, e) =>
             {
-                while (e.GrowthSnake.IsHaveCoordinate(e.EatFood.X, e.EatFood.Y))
-                    e.EatFood.ChangePlace(Width,Height);
+                while (e.GrowthSnake.IsHaveCoordinate(e.EatApple.X, e.EatApple.Y))
+                    e.EatApple.ChangePlace(Width,Height);
                 Score++;
                 e.GrowthSnake.Increment();
             };
@@ -65,10 +65,10 @@ namespace MyGameSnake
                 Environment.Exit(0); // end of game
             };
             
-            food.ChangePlace(Width,Height);
+            apple.ChangePlace(Width,Height);
             while (true)
             {
-                area.Update(food);
+                area.Update(apple);
                 area.Update(snake);
                 area.Draw();
                 area.SetEmptySpace(snake);
@@ -84,7 +84,7 @@ namespace MyGameSnake
                     snake.OnBiteYourself(); // start event
                 if (area.IsSnakeInTheWall(snake))
                     snake.OnHitTheWall();
-                CheckEat(snake,food);
+                CheckEat(snake,apple);
                 Thread.Sleep(snake.Speed);
             }
         }

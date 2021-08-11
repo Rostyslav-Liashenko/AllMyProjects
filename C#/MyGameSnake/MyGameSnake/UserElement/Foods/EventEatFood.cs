@@ -5,7 +5,7 @@ namespace MyGameSnake.UserElement.Foods
 {
     public class EventEatFood : EventArgs
     {
-        public Food EatFood { get; set; }
+        public Apple EatApple { get; set; }
         public Snake GrowthSnake { get; set; }
     }
 }

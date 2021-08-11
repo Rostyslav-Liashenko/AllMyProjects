@@ -8,8 +8,8 @@ namespace MyGameSnake.UserElement.MainCharacter
         private const char SymbolHead = '%';
         private const char OtherSegmentSnake = '*';
         private const int StandardSpeed = 200;
-        public int Length { get; set; }
-        public int Speed { get; set; }
+        public int Length { get; private set; }
+        public int Speed { get; private set; }
         public SnakeDirection Direction { get; set; }
 
         public event EventHandler HitTheWall;
@@ -39,19 +39,19 @@ namespace MyGameSnake.UserElement.MainCharacter
             int tempX = snake[0].X;
             int tempY = snake[0].Y;
             int countMatches = snake.Count((ob) => ob.X == tempX && ob.Y == tempY);
-            return countMatches > 1; // 1 because 1 matches it is head of snike
+            return countMatches > 1; // 1 because 1 matches it is head of snake
         }
 
         public bool IsRotateYourself(SnakeDirection latsDirection, SnakeDirection newDirection)
         {
             return Math.Abs((int) latsDirection - (int) newDirection) == 1;
         }
-        
-        public void Increment()
-        {
-            int offsetX = 0;
-            int offsetY = 0;
 
+
+        private void MoveTail(out int offsetX, out int offsetY)
+        {
+            offsetX = 0;
+            offsetY = 0;
             if (Length > 1)
             {
                 if (snake[Length - 1].X - snake[Length - 2].X < 0) // generate tail left
@@ -80,7 +80,11 @@ namespace MyGameSnake.UserElement.MainCharacter
                 offsetX = -1;
                 offsetY = 0;
             }
-            
+        }
+        
+        public void Increment()
+        {
+            MoveTail(out int offsetX, out int offsetY);
             GameObject[] newSnake = new GameObject[snake.Length + 1];
             Array.Copy(snake,newSnake,snake.Length);
             newSnake[newSnake.Length - 1] = 

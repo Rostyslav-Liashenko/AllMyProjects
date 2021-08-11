@@ -8,8 +8,8 @@ namespace MyGameSnake
     {
         private const char EmptySpace = ' ';
         private const char SymbolWall = '#';
-        public int Row { get; set; }
-        public int Column { get; set; }
+        public int Row { get; private set; }
+        public int Column { get; private set; }
         private char[,] matrix;
 
 

@@ -22,7 +22,5 @@ namespace MyGameSnake.UserElement
             else
                 return false;
         }
-        // override Equals(object)
-        // override GetHashCode
     }
 }
