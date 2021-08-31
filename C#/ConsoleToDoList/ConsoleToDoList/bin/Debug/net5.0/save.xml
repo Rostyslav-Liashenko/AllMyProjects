@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ArrayOfBoard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Board>
+    <Goals>
+      <Goal>
+        <Id>5111</Id>
+        <Description>Create a new World</Description>
+      </Goal>
+    </Goals>
+    <Name>To do</Name>
+  </Board>
+  <Board>
+    <Goals>
+      <Goal>
+        <Id>6303</Id>
+        <Description>Repair my mouse</Description>
+      </Goal>
+      <Goal>
+        <Id>1388</Id>
+        <Description>Repair my laptop</Description>
+      </Goal>
+    </Goals>
+    <Name>Completed</Name>
+  </Board>
+</ArrayOfBoard>

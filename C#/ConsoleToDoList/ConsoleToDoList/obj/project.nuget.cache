@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "77G3XVHC2K671MeDfZbkkVgyEN/skVkbuDonWZ67qsSXpKfGBkFMtu8ESMYPM40FGrZIULVNVJPNS4XtKsFJ7w==",
+  "success": true,
+  "projectFilePath": "/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/ConsoleToDoList.csproj",
+  "expectedPackageFiles": [
+    "/home/kivi27/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

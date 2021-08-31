@@ -1,0 +1,16 @@
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/bin/Debug/net5.0/ConsoleToDoList
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/bin/Debug/net5.0/ConsoleToDoList.deps.json
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/bin/Debug/net5.0/ConsoleToDoList.runtimeconfig.json
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/bin/Debug/net5.0/ConsoleToDoList.runtimeconfig.dev.json
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/bin/Debug/net5.0/ConsoleToDoList.dll
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/bin/Debug/net5.0/ref/ConsoleToDoList.dll
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/bin/Debug/net5.0/ConsoleToDoList.pdb
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.csprojAssemblyReference.cache
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.AssemblyInfoInputs.cache
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.AssemblyInfo.cs
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.csproj.CoreCompileInputs.cache
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.dll
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ref/ConsoleToDoList.dll
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.pdb
+/home/kivi27/RiderProjects/ConsoleToDoList/ConsoleToDoList/obj/Debug/net5.0/ConsoleToDoList.genruntimeconfig.cache
